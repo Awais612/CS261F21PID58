@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0.0547264, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_4">
+      <property name="styleSheet">
+       <string notr="true">Background:none;
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0" rowspan="2" colspan="2">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">Background:none;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../../../MyOwnThings/MyLogo.qrc">:/Mylogo/C:/Users/Abdullah Yaqub/Downloads/python-logo@2x.png</pixmap>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+           <pointsize>26</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">Background:none;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string>COURSE SCRAPPING APPLICATION</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">Background:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="tableWidget">
+         <column>
+          <property name="text">
+           <string>Course Title</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>University Name</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Course Type</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Course Ratings</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>No. of Students</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Course Level</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Student Reviews</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QFrame" name="frame_3">
+      <property name="styleSheet">
+       <string notr="true">Background:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QProgressBar" name="progressBar">
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Start</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>Resume</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Stop</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">Background:none;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Progress of Scrapping</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="placeholderText">
+          <string>In progress....</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Remaining Scrapping</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="placeholderText">
+          <string>Remaining....</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1072</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Emoji</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuSorting">
+    <property name="title">
+     <string>Sorting</string>
+    </property>
+    <addaction name="actionMerge_Sort"/>
+    <addaction name="actionInsertion_Sort"/>
+    <addaction name="actionSelection_Sort"/>
+    <addaction name="actionHybirdized_Algorithms"/>
+    <addaction name="actionBubble_Sort"/>
+    <addaction name="actionHeap_Sort"/>
+    <addaction name="actionQuick_Sort"/>
+   </widget>
+   <widget class="QMenu" name="menuFilters">
+    <property name="title">
+     <string>Filters</string>
+    </property>
+    <addaction name="actionAND"/>
+    <addaction name="actionOR"/>
+    <addaction name="actionIs_equal_to"/>
+    <addaction name="actionIs_not_Equal_to"/>
+    <addaction name="actionIs_less_tha"/>
+    <addaction name="actionIs_Greater_Than"/>
+    <addaction name="actionIs_fretaer_than_Equal_to"/>
+    <addaction name="actionIs_Null"/>
+    <addaction name="actionIs_not_Null"/>
+    <addaction name="actionContains"/>
+    <addaction name="actionStarts_with"/>
+    <addaction name="actionEnds_With"/>
+   </widget>
+   <widget class="QMenu" name="menuInfo">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionAbout_the_app"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuSorting"/>
+   <addaction name="menuFilters"/>
+   <addaction name="menuInfo"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMerge_Sort">
+   <property name="text">
+    <string>Merge Sort</string>
+   </property>
+  </action>
+  <action name="actionInsertion_Sort">
+   <property name="text">
+    <string>Insertion Sort</string>
+   </property>
+  </action>
+  <action name="actionSelection_Sort">
+   <property name="text">
+    <string>Selection Sort</string>
+   </property>
+  </action>
+  <action name="actionHybirdized_Algorithms">
+   <property name="text">
+    <string>Hybirdized Algorithms</string>
+   </property>
+  </action>
+  <action name="actionBubble_Sort">
+   <property name="text">
+    <string>Bubble Sort</string>
+   </property>
+  </action>
+  <action name="actionHeap_Sort">
+   <property name="text">
+    <string>Heap Sort</string>
+   </property>
+  </action>
+  <action name="actionQuick_Sort">
+   <property name="text">
+    <string>Quick Sort</string>
+   </property>
+  </action>
+  <action name="actionAND">
+   <property name="text">
+    <string>AND</string>
+   </property>
+  </action>
+  <action name="actionOR">
+   <property name="text">
+    <string>OR</string>
+   </property>
+  </action>
+  <action name="actionIs_equal_to">
+   <property name="text">
+    <string>Is equal to</string>
+   </property>
+  </action>
+  <action name="actionIs_not_Equal_to">
+   <property name="text">
+    <string>Is not Equal to</string>
+   </property>
+  </action>
+  <action name="actionIs_less_tha">
+   <property name="text">
+    <string>Is less tha </string>
+   </property>
+  </action>
+  <action name="actionIs_Greater_Than">
+   <property name="text">
+    <string>Is Greater Than</string>
+   </property>
+  </action>
+  <action name="actionIs_fretaer_than_Equal_to">
+   <property name="text">
+    <string>Is fretaer than Equal to</string>
+   </property>
+  </action>
+  <action name="actionIs_Null">
+   <property name="text">
+    <string>Is Null</string>
+   </property>
+  </action>
+  <action name="actionIs_not_Null">
+   <property name="text">
+    <string>Is not Null</string>
+   </property>
+  </action>
+  <action name="actionContains">
+   <property name="text">
+    <string>Contains</string>
+   </property>
+  </action>
+  <action name="actionStarts_with">
+   <property name="text">
+    <string>Starts with </string>
+   </property>
+  </action>
+  <action name="actionEnds_With">
+   <property name="text">
+    <string>Ends With</string>
+   </property>
+  </action>
+  <action name="actionAbout_the_app">
+   <property name="text">
+    <string>About the app</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../../../MyOwnThings/MyLogo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
