@@ -51,7 +51,7 @@ color:white;</string>
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="../../../MyOwnThings/MyLogo.qrc">:/Mylogo/C:/Users/Abdullah Yaqub/Downloads/python-logo@2x.png</pixmap>
+          <pixmap>:/Mylogo/C:/Users/Abdullah Yaqub/Downloads/python-logo@2x.png</pixmap>
          </property>
         </widget>
        </item>
@@ -225,7 +225,7 @@ color:white;</string>
      <x>0</x>
      <y>0</y>
      <width>1072</width>
-     <height>29</height>
+     <height>28</height>
     </rect>
    </property>
    <property name="font">
